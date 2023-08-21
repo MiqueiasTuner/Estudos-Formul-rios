@@ -1,0 +1,25 @@
+body{/*Formatando o corpo da pagina*/
+    background-color: silver;
+}
+*{/*Formatando todos os elementos*/
+    font-family: verdana;
+}
+h1{/*Formatando o título da página*/
+    Color: purple;
+    text-align: center;
+}
+fieldset{/*Formatando a borda ao redor do formuçário - caixa de envolve itens formulário*/
+    width: 60%; /*Largura*/
+    margin: 0 auto;/*centraliza formulário*/
+    border-radius: 15px;/*Borda Arredondada*/
+    background-color: white;/*cor de fundo*/
+    box-shadow: 2px 2px 2px gray;/*Sombra na Caixa*/
+}
+input,select,textarea{
+    border-radius: 4px; /*Borda Arredondada*/
+    padding: 5px; /*Definindo margem interna*/
+    margin: 5px; /*Definindo margem externa*/
+}
+label{/*Texto antes dos campos*/
+    font-weight: bold;
+}
